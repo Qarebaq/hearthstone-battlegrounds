@@ -98,7 +98,7 @@ git merge branch-name
 3. **Commit کنید:** `git commit -m "message"` - تغییرات رو ثبت کنید
 4. **Push کنید:** `git push` - تغییرات رو به GitHub بفرستید
 
-** نکته مهم قبل از `git add .`:**
+**نکته مهم قبل از `git add .`:**
 
 قبل از اولین `git add .`، مطمئن بشید که فایل `.gitignore` در پروژه وجود داره و شامل موارد زیر است:
 
@@ -198,7 +198,7 @@ git reset HEAD~1  # یا git reset --mixed HEAD~1 (پیش‌فرض)
 
 #### گام ۱: Fork در GitHub
 
-1. به صفحه repository اصلی برید 
+1. به صفحه repository اصلی برید
 2. بالا سمت راست، روی دکمه سبز "Fork" کلیک کنید
 3. چند ثانیه صبر کنید تا fork بشه
 4. بعد از fork، به صفحه repository خودتون منتقل می‌شید
@@ -331,7 +331,7 @@ git push origin student-name
 - همه کدهای تیم در یه جا جمع می‌شه
 - می‌تونید ببینید تیم چی کار کرده
 - برای تحویل نهایی استفاده می‌شه
--  فقط این branchرو بررسی می‌کنم 
+- فقط این branch رو بررسی می‌کنم
 
 **گزینه ۱: استفاده از Fork یکی از اعضا (پیشنهادی)**
 
@@ -408,12 +408,10 @@ git checkout -b team/robert team-fork/team/robert  # branch تیمی رو local 
 
 1. **فایل تیم رو بسازید:**
 
-  
    ```bash
    cp teams/TEAM_TEMPLATE.md teams/robert.md
    ```
-   
-  
+
    یا به صورت دستی: از فایل `TEAM_TEMPLATE.md` یک کپی بگیرید و نامش رو به `robert.md` تغییر بدید.
 
 2. **فایل رو پر کنید:**
@@ -871,7 +869,7 @@ git shortlog -sn
 - برنچ تیمی را بررسی کنید
 - مطمئن بشید که آخرین commit‌های همه اعضای تیم در branch تیمی موجود است
 
-#### گام ۶: تحویل  
+#### گام ۶: تحویل
 
 **اطلاعاتی که باید بدید:**
 1. **نام branch تیمی:** مثلاً `team/robert`
@@ -981,7 +979,7 @@ git commit -m "Deimi - Resolve merge conflict with team branch"
 
 ### همگام‌سازی مداوم
 
-** نکته مهم:** فقط سرگروه باید با repository اصلی (upstream) sync کند. بقیه اعضا فقط از branch تیمی آپدیت می‌گیرند.
+**نکته مهم:** فقط سرگروه باید با repository اصلی (upstream) sync کند. بقیه اعضا فقط از branch تیمی آپدیت می‌گیرند.
 
 **برای سرگروه:**
 ```bash
@@ -1013,7 +1011,7 @@ git pull team-fork team/robert  # یا git pull origin team/robert اگر سرگ
 
 ---
 
-##  سوالات
+## سوالات
 
 - **GitHub Issues:** بهترین راه برای سوالات تکنیکی. یه Issue در repository اصلی باز کنید و سوالتون رو بپرسید. این کار به بقیه هم کمک می‌کنه اگه سوال مشابهی داشته باشن.
 - **تلگرام:** برای سوالات خصوصی یا مهم
