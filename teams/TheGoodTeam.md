@@ -14,9 +14,9 @@ Copy this file and save it in this folder with your team name. Example: `teams/p
 ## Notes (Optional)
 
 - Each member's domain:
-  - Member 1:
-  - Member 2:
-  - Member 3:
+  - AmirMOhammad Mohammadi Qarebagh: https://github.com/Qarebaq
+  - Narges Nazemi: https://github.com/nargesnazemi403
+  - AmirReza Neyestani: https://github.com/amirreza005500-oss
 
 ## Important PR Links (Optional)
 
