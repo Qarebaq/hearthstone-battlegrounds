@@ -8,7 +8,7 @@
 using namespace std;
 
 
-enum CardType{
+enum class CardType{
 Hero,
 Minion
 
@@ -24,13 +24,12 @@ class Card{
         string description;
 
         //constructors are here
-        Card():type(CardType::Minion),name(""),tier(1),description(""){}
-        Card(string n, int t, CardType tp): name(n), tier(t), type(tp) {}
+        Card() : type(CardType::Minion), name(""), tier(1), description("") {}
+        Card(string n, int t, CardType tp, string desc = "")
+            : name(n), tier(t), type(tp), description(desc) {}
 
-
-
-        virtual void play(){}; //override in child classes
-        virtual ~Card() {} 
+        virtual void play() {} // override in child classes
+        virtual ~Card() {}
 };
 
 
