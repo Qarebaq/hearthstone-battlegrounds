@@ -1,9 +1,55 @@
 #include "GameController.h"
+#include "Combat.h"
 #include <iostream>
 #include <chrono>
 
 using namespace std;
 using namespace chrono;
+
+
+
+void GameController::run(GameState &state){// تابع اجرایی بسیار مهم حتما تسلط روی کار با این رو داشته باش
+
+    while(true){
+        // ------پسرک حتما توجه کن به اینجا
+        //فاز خرید بازی
+        state.phase = Phase::Buy;
+        cout<<"\n-=-=-Round "<<state.round<<" | BUY PHASE -=-=\n";
+        for (int i=0;i<state.players.size();i++){
+            Player *p = state.players[i];
+            Shop *s = state.shops[i];
+
+
+            cout<<"\n---"<<p->name<<"TURN --\n";
+            buyPhase(*p , *s);
+
+
+        }
+        // ------پسرک حتما توجه کن به اینجا
+        //فاز Combat بازی
+
+        state.phase = Phase::Combat;
+        cout<<"\n----COMBAT PHASE ---\n";
+        combatPhase(state);
+
+        state.round++;
+    }
+}
+
+
+
+void GameController::combatPhase(GameState &state){// نیاز به بررسی مجدد دارم  - پیاده سازی فاز مبارزه
+
+for(int i=0; i+1<state.players.size();i+=2){
+    Player *A = state.players[i];
+    Player *B = state.players[i+1];
+
+    cout<<"\n"<<A->name<<" VS "<<B->name<<endl;
+    Combat::fight(*A ,*B);
+}
+
+}
+
 
 void GameController::buyPhase(Player &p, Shop &shop) {
 
