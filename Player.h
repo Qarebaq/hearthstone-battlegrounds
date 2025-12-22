@@ -1,6 +1,6 @@
 #ifndef PLAYER_H
 #define PLAYER_H
-
+//HERO POWER ADDED
 #include "Hero.h"
 #include "Board.h"
 #include "MinionPool.h"
