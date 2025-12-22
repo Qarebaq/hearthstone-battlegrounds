@@ -92,19 +92,50 @@ static void runDeathrattle(Board &board , Minion *m){// تابعی برای اج
 
 static void handleDeaths(Board &board){ //پاک کردن مینیون های مرده از برد با دفرتل
 
-    vector<Minion*> alive;
-    for(int i=0 ;i<board.minions.size();i++){
-        Minion *m = board.minions[i];
 
-
+std::vector<Minion*> alive;
+    for (Minion *m : board.minions){
         if(m->health<=0){
-            runDeathrattle(board , m);
+            // اینجا میخوام دف رتل رو با اجازتون اجرا کنم
+            runDeathrattle(board, m);
+
+
+            if(m->reborn){// اینجا دارم از قابلیت ریبورن استفاده میکنم
+                Minion *rebornMinion = new Minion(m->name, m->tier, m->attack,1);
+
+                rebornMinion->taunt = m->taunt;
+                rebornMinion->poisonous = m->poisonous;
+
+                rebornMinion->reborn = false;
+                board.addMinion(rebornMinion);
+
+            }
+
+            else{
+                alive.push_back(m);
+            }
+
         }
-        else{
-            alive.push_back(m);
-        }
+        board.minions = alive;
     }
-board.minions = alive;
+
+
+
+
+
+//     vector<Minion*> alive;
+//     for(int i=0 ;i<board.minions.size();i++){
+//         Minion *m = board.minions[i];
+
+
+//         if(m->health<=0){
+//             runDeathrattle(board , m);
+//         }
+//         else{
+//             alive.push_back(m);
+//         }
+//     }
+// board.minions = alive;
 
 }
 

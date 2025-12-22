@@ -12,7 +12,11 @@ public:
     bool taunt;
     bool divineShield;
     bool deathrattle;
-    bool poisonous;
+    bool poisonous; // ویژگی سمی و زهرآلود بودن رو اضافه کردم اینجا
+    bool reborn;
+    bool rebornUsed;
+
+
 
     Minion(string n, int t, int atk, int hp)
         : Card(n, t, CardType::Minion),
@@ -21,7 +25,9 @@ public:
           taunt(false),
           divineShield(false),
           deathrattle(false),
-          poisonous(false)
+          poisonous(false),
+          reborn(false),
+          rebornUsed(false)
     {}
 
     void play() override {

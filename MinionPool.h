@@ -30,7 +30,9 @@ class MinionPool{
         }
 
         if (tier >= 3) {
-            result.push_back(new Minion("Deflect-o-Bot", 3, 3, 2));
+            Minion *bot = new Minion("Deflect-o-Bot", 3, 3, 2); // اینجا اومدم یه مینیون با قابلیت ریبورن ساختم
+            bot->reborn =true;
+            result.push_back(bot);
         }
 
         return result;
