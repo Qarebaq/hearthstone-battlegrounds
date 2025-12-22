@@ -3,6 +3,7 @@
 
 
 #include <iostream>
+#include<memory>
 #include "minion.h"
 using namespace std;
 #include<vector>

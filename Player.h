@@ -10,6 +10,10 @@
 #include <unordered_map> // این چیز باحالیه شبیه دیکشنری ها توی پایتون هست 
 using namespace std;
 
+
+#include<memory>   // داریم تلاش میکنیم مدیریت حافظه امون رو بهبود ببخشیم
+
+
 class Player{
     public:
     string name;

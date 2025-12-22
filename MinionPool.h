@@ -6,6 +6,7 @@
 
 #include<vector>
 #include"minion.h"
+#include<memory>
 
 using namespace std;
 

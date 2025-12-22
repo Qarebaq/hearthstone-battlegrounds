@@ -5,6 +5,7 @@
 #include<cstdlib>
 #include<ctime>
 #include<chrono>
+#include<memory>
 #include "Player.h"
 #include "MinionPool.h"
 using namespace std;
