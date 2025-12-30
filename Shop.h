@@ -5,6 +5,7 @@
 #include<cstdlib>
 #include<ctime>
 #include<chrono>
+#include<random>
 #include<memory>
 #include "Player.h"
 #include "MinionPool.h"
@@ -27,7 +28,7 @@ public:
     const int FREEZE_COST = 0; // هزینه فریز (در Hearthstone Battlegrounds رایگان است)
     
     // این تابع فروشگاه رو پر میکنه
-    void roll();//{
+    void roll(std::mt19937 &rng);//{
         // if(frozen){
         //     cout << "Shop is frozen - skipping roll\n";
         //     return;

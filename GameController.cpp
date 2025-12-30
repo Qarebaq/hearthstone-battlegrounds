@@ -7,8 +7,16 @@ using namespace std;
 using namespace chrono;
 
 
+GameController::GameController()
+  : seed(static_cast<uint32_t>(std::chrono::steady_clock::now().time_since_epoch().count() & 0xffffffff)),
+    rng(seed)
+{
+    // nada
+}
+
 
 void GameController::run(GameState &state){// تابع اجرایی بسیار مهم حتما تسلط روی کار با این رو داشته باش
+cout << "Match seed: " << seed << endl;
 
     while(true){
         // ------پسرک حتما توجه کن به اینجا
@@ -62,10 +70,11 @@ while(i+1<state.players.size()){
 
 //برای فاز سرور ما بعدها seed را از سرور برمی‌داریم (در پیام combat_start)، ولی برای تست محلی فعلاً یک seed بر اساس زمان ایجاد می‌کنیم و آن را چاپ می‌کنیم تا هر زمان خواستیم یک seed خاص را جایگزین کنیم و replay بگیریم
     cout<<"\n"<<A->name<<" VS "<<B->name<<endl;
-    uint32_t seed = static_cast<uint32_t>(chrono::steady_clock::now().time_since_epoch().count() & 0xffffffff);
-    std::mt19937 rng(seed);
-    cout << "Combat seed: " << seed << endl;
-    Combat::fight(*A, *B, rng);
+    uint32_t combat_seed = rng(); // یک عدد 32 بیتی از RNG مرکزی
+    std::mt19937 combat_rng(combat_seed);
+    cout << "Combat seed: " << combat_seed << endl;
+    Combat::fight(*A, *B, combat_rng);
+
 
     //اینجا دارم بازنده و برنده رو مشخص میکنم
     bool aHasMinions = (A->board.minions.size()>0);
@@ -141,7 +150,7 @@ while(i+1<state.players.size()){
 void GameController::buyPhase(Player &p, Shop &shop) {
 
     // شروع فاز خرید (دقیقاً مثل قبل)
-    shop.roll();
+    shop.roll(rng);
     auto start = steady_clock::now();
 
     const int TIMER = 120; // پسرک تایمر رو اینجا ست کردی حواست باشه
@@ -176,7 +185,7 @@ void GameController::buyPhase(Player &p, Shop &shop) {
         }
         else if (cmd == 1 && p.gold >= 1) {
             p.gold--;
-            shop.roll();
+            shop.roll(rng);
         }
         else if (cmd == 2) {
             shop.toggleFreeze(p);

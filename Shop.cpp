@@ -1,5 +1,6 @@
 #include "Shop.h"
 #include <iostream>
+#include<random>
 //توضیحات تک تک کد ها رو توی شاپ دات اچ دادم
 // ببین اول کلا شاپ دات اچ بود بعدا اومدم این شاپ دات سی پ پ رو اضافه کردم 
 // تلاش بر این بود که بتونم مدل رو از کنترلر جدا کنم چون توی حالت قبلی اینا توی هم بودن
@@ -7,7 +8,7 @@
 using namespace std;
 
 // پر کردن فروشگاه
-void Shop::roll() {
+void Shop::roll(std::mt19937 &rng) {
     if (frozen) {
         cout << "Shop is frozen - skipping roll\n";
         return;
@@ -15,9 +16,13 @@ void Shop::roll() {
 
     slots.clear();
     vector<Minion*> pool = MinionPool::getByTier(tavernTier);
+    if(pool.empty()){
+        return;
+    }
 
+    std::uniform_int_distribution<int> dist(0, (int)pool.size() - 1);
     for (int i = 0; i < MAX_SLOTS; i++) {
-        int r = rand() % pool.size();
+        int r = dist(rng);
         slots.push_back(pool[r]);
     }
 }
