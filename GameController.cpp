@@ -109,7 +109,7 @@ while(i+1<state.players.size()){
         }
 
         else{
-            i+2;
+            i+=2;
 
         }
 
@@ -233,6 +233,33 @@ void GameController::buyPhase(Player &p, Shop &shop) {
             else if(p.hero->name == "Millhouse"){
                 // این هیرو قدرت فعال ندارد
                 cout << "Millhouse has a passive power; no active hero power to use.\n";
+            }
+            else if(p.hero->name == "Sylvanas"){
+                    // سیلواناس میتونه تقویت یک مینیون کنه با +1/+1
+                if(p.gold<1){
+                    cout<<"Not enough gold to use hero power\n";
+
+                }
+                else if(p.board.minions.empty()){
+                    cout<<"No minions on the board\n";
+                }
+                else{
+                    cout<<"Select minion index to give +1/+1: ";
+                    int idx;
+                    cin>>idx;
+                    if(idx>=0 && idx <p.board.minions.size()){
+                        Minion *m = p.board.minions[idx];
+                        m->attack +=1;
+                        m->health+=1;
+                        p.gold-=1;
+                        cout<<m->name<<" now has "<< m->attack<<"/"<<m->health<<endl;
+
+                    }
+                    else{
+                        cout<<"Invalid index\n";
+                    }
+                }
+
             }
             else{// هیرو های دیگه که بعدا اضافه میکنیم
         cout << "Hero power not implemented for " << p.hero->name << "\n";
