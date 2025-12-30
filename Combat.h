@@ -107,7 +107,7 @@ std::vector<Minion*> alive;
                 rebornMinion->poisonous = m->poisonous;
 
                 rebornMinion->reborn = false;
-                board.addMinion(rebornMinion);
+                alive.push_back(rebornMinion);
 
             }
 
