@@ -6,7 +6,8 @@
 #include<vector>
 #include<cstdlib>
 #include<iostream>
-
+#include<algorithm>
+#include<random>
 #include "Player.h"
 using namespace std;
 
@@ -16,9 +17,14 @@ class Combat{
 
     static vector<Minion*> getTaunts(Board &board){  //   این تابع کارش این هست که بره داخل برد حریف بگرده ببینه کدوم میمنیون ها تاونت دارن که بهشون اتک بزنیم اول
         vector<Minion*> taunts;
-        for(int i=0 ; i<board.minions.size(); i++){
-            if(board.minions[i]->taunt && board.minions[i]->health>0){
-                taunts.push_back(board.minions[i]);
+        // for(int i=0 ; i<board.minions.size(); i++){
+        //     if(board.minions[i]->taunt && board.minions[i]->health>0){
+        //         taunts.push_back(board.minions[i]);
+        //     }
+        // }
+        for(auto m : board.minions){
+            if(m->taunt && m->health>0){
+                taunts.push_back(m);
             }
         }
 
@@ -28,7 +34,7 @@ class Combat{
 
 
 
-    static Minion* chooseTarget(Board &board){
+    static Minion* chooseTarget(Board &board ,std::mt19937 &rng){
 
     vector<Minion*> taunts;
 
@@ -39,7 +45,8 @@ class Combat{
     }
 
     if (!taunts.empty()) {
-        return taunts[rand() % taunts.size()];
+        std::uniform_int_distribution<int> d(0, (int)taunts.size() - 1);
+        return taunts[d(rng)];
     }
 
     vector<Minion*> alive;
@@ -49,9 +56,10 @@ class Combat{
     }
 
     if (alive.empty()) return nullptr;
-
-    return alive[rand() % alive.size()];
-}
+        std::uniform_int_distribution<int> d(0, (int)alive.size() - 1);
+        return alive[d(rng)];
+    
+    }
 
 
     // static Minion* chooseTarget(Board &board){// انتخاب هدف برای حمله با این تابع انجام میشود
@@ -75,6 +83,9 @@ class Combat{
 
 
     static void dealDamage(Minion *attacker, Minion *defender){// بررسی و ضربه زدن به مینیون حریف با توجه به دارا بودن دیواین شیلد
+       if(!defender || !attacker){
+        return;
+       }
         if (defender->divineShield){
             defender->divineShield = false;
 
@@ -104,7 +115,7 @@ class Combat{
 
 
 
-static void runDeathrattle(Board &board , Minion *m){// تابعی برای اجرا کردن دفرتل درصورت وجود بودن
+static void runDeathrattle(Board &board, Minion *m, vector<Minion*> &toAdd){// تابعی برای اجرا کردن دفرتل درصورت وجود بودن
     if(!m->deathrattle){
         return;
     }
@@ -112,43 +123,48 @@ static void runDeathrattle(Board &board , Minion *m){// تابعی برای اج
     cout<<m->name<< " deathrattle triggered!\n";
 
 
-     if (board.minions.size() < board.maxMinions) {
-            board.addMinion(new Minion("Deathrattle Token", 1, 1, 1));
+        if ((int)(board.minions.size() + toAdd.size()) < board.maxMinions) {
+            toAdd.push_back(new Minion("Deathrattle Token", 1, 1, 1));
         }
 }
 
-static void handleDeaths(Board &board){ //پاک کردن مینیون های مرده از برد با دفرتل
+//پاک کردن مینیون های مرده از برد با دفرتل
 
+static void handleDeaths(Board &board){
+        vector<Minion*> alive;
+        vector<Minion*> dead;
 
-std::vector<Minion*> alive;
-    for (Minion *m : board.minions){
-        if(m->health<=0){
-            // اینجا میخوام دف رتل رو با اجازتون اجرا کنم
-            runDeathrattle(board, m);
+        for (Minion *m : board.minions) {
+            if (m->health <= 0) dead.push_back(m);
+            else alive.push_back(m);
+        }
 
+        vector<Minion*> pendingTokens;
 
-            if(m->reborn){// اینجا دارم از قابلیت ریبورن استفاده میکنم
-                Minion *rebornMinion = new Minion(m->name, m->tier, m->attack,1);
+        for (Minion *m : dead) {
+            if (m->deathrattle) {
+                pendingTokens.push_back(new Minion("Deathrattle Token", 1, 1, 1));
+            }
 
+            if (m->reborn && !m->rebornUsed) {
+                Minion *rebornMinion = new Minion(m->name, m->tier, m->attack, 1);
                 rebornMinion->taunt = m->taunt;
                 rebornMinion->poisonous = m->poisonous;
-
                 rebornMinion->reborn = false;
+                rebornMinion->rebornUsed = true;
                 alive.push_back(rebornMinion);
-
             }
 
-
-
+            delete m;
         }
-        else{
-                alive.push_back(m);
-            }
- 
-    }
+                // اضافه کردن pending tokens تا سقف maxMinions
+        for (Minion *t : pendingTokens) {
+            if ((int)alive.size() < board.maxMinions) alive.push_back(t);
+            else delete t; // اگر جا نداره آزاد میکنم اینجا
+        }
 
-       board.minions = alive;
-}
+        board.minions = std::move(alive);
+    }
 
 
 //     vector<Minion*> alive;
@@ -168,7 +184,7 @@ std::vector<Minion*> alive;
 
 
 
-static void fight(Player &A ,Player &B){
+static void fight(Player &A, Player &B, std::mt19937 &rng){
 
     // srand(time(NULL));
 
@@ -182,13 +198,13 @@ static void fight(Player &A ,Player &B){
 
         // نوبت بازیکن آ
         if(A.board.minions.size()>0){
-            if(attackerIndexA >= A.board.minions.size()){
+            if(attackerIndexA >= (int)A.board.minions.size()){
                 attackerIndexA =0;
             }
 
 
             Minion *attacker = A.board.minions[attackerIndexA];
-            Minion *target = chooseTarget(B.board);
+            Minion *target = chooseTarget(B.board , rng);
 
             if(target ==nullptr){
                 break;
@@ -216,12 +232,12 @@ static void fight(Player &A ,Player &B){
            if(B.board.minions.size()>0){
 
 
-                if(attackerIndexB>=B.board.minions.size()){
+                if(attackerIndexB >= (int)B.board.minions.size()){
                     attackerIndexB =0;
                 }
 
                 Minion *attacker = B.board.minions[attackerIndexB];
-                Minion *target = chooseTarget(A.board);
+                Minion *target = chooseTarget(A.board , rng);
 
 
                 if(target==nullptr){
