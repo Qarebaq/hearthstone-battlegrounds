@@ -29,7 +29,7 @@ class Player{
         cout << name << "'s Board:" << endl;
         board.printBoard();
     }
-    void checkForTriple(){// درواقع شمارش تعداد مینیون ها بر اساس نام رو انجام میده
+    int checkForTriple(){// درواقع شمارش تعداد مینیون ها بر اساس نام رو انجام میده
         unordered_map<string, int> count; // اینجا یه دیکشنری ساختم که ببینیم از هر مینیون چند تا داریم 
         for(Minion *m : board.minions){
             count[m->name]++;
@@ -68,50 +68,74 @@ class Player{
 
 
                 int nextTier = tier+1;
-                discover(nextTier);
-                break;
-                
+                // discover(nextTier);
+                // break;
+                return nextTier;
             }
         }
-
+        return 0;
     }
 
 
-    void discover(int tier){
 
+
+
+
+// تولید گزینه‌های Discover (بدون خواندن از ورودی)
+    std::vector<Minion*> getDiscoverOptions(int tier){
         std::vector<Minion*> options = MinionPool::getByTier(tier);
+        std::vector<Minion*> res;
+        if(options.empty()) return res;
 
-
-            if(options.empty()){
-                std::cout<<"No minions available for discover.\n";
-                return;
-            }
-
-            int numOptions = std::min(3,(int)options.size());
-            std::cout<<"Discover from Tier "<<tier<<":\n";
-            for(int i=0;i<numOptions;i++){
-                std::cout<<i<<") "<<options[i]->name<<" "<<options[i]->attack<<"/"<<options[i]->health<<std::endl;
-            }
-            std::cout<<"Enter your choice: ";
-            int choice;
-            std::cin>>choice;
-            if(choice<0||choice>=numOptions){
-
-                std::cout<<"Invalid choice, defaulting to 0\n";
-                choice =0;
-            }
-
-
-            // اینجا دارم مینیون انتخاب شده رو به برد بازی اضافه میکنم
-            Minion *chosen =options[choice];
-            board.addMinion(chosen);
-
-            for(int i=0;i<options.size();i++){
-                if(i != choice){
-                    delete options[i];
-                }
-            }
+        int numOptions = std::min(3, (int)options.size());
+        for(int i = 0; i < numOptions; ++i){
+            res.push_back(options[i]);
+        }
+        // آزادسازی گزینه‌های اضافی (در صورت وجود)
+        for(int i = numOptions; i < (int)options.size(); ++i){
+            delete options[i];
+        }
+        return res;
     }
+
+
+
+
+    // void discover(int tier){
+
+    //     std::vector<Minion*> options = MinionPool::getByTier(tier);
+
+
+    //         if(options.empty()){
+    //             std::cout<<"No minions available for discover.\n";
+    //             return;
+    //         }
+
+    //         int numOptions = std::min(3,(int)options.size());
+    //         std::cout<<"Discover from Tier "<<tier<<":\n";
+    //         for(int i=0;i<numOptions;i++){
+    //             std::cout<<i<<") "<<options[i]->name<<" "<<options[i]->attack<<"/"<<options[i]->health<<std::endl;
+    //         }
+    //         std::cout<<"Enter your choice: ";
+    //         int choice;
+    //         std::cin>>choice;
+    //         if(choice<0||choice>=numOptions){
+
+    //             std::cout<<"Invalid choice, defaulting to 0\n";
+    //             choice =0;
+    //         }
+
+
+    //         // اینجا دارم مینیون انتخاب شده رو به برد بازی اضافه میکنم
+    //         Minion *chosen =options[choice];
+    //         board.addMinion(chosen);
+
+    //         for(int i=0;i<options.size();i++){
+    //             if(i != choice){
+    //                 delete options[i];
+    //             }
+    //         }
+    // }
 
 };
 

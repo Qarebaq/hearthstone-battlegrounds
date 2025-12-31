@@ -30,6 +30,16 @@ GameState::GameState(){
         shops.push_back(shop);
     }
 
+
+
+    pendingActions.resize(numPlayers);
+    discoverOffers.resize(numPlayers);    // مقداردهی ساختارهای pending / discover
+    discoverPending.resize(numPlayers ,false);
+
+
+
+
+
     // پسر حواست باشه اینجا میتونی HERO ها رو اضافه کنی
 
     // Hero *hero1 = new Hero("Hero 1");

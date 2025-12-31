@@ -70,7 +70,7 @@ void Shop::buy(Player &p, int index) {
     p.board.addMinion(slots[index]);
     slots.erase(slots.begin() + index);
 
-    p.checkForTriple();   // پسرک اینو اضافه کردم که حواست باشه و یادت باشه که یه قانون داریم که میتونی توش اگر سه تا از یه مینیون بخری نسخه طلایی اش رو فعال کنی
+    // p.checkForTriple();   // پسرک اینو اضافه کردم که حواست باشه و یادت باشه که یه قانون داریم که میتونی توش اگر سه تا از یه مینیون بخری نسخه طلایی اش رو فعال کنی
 
     cout << "Minion bought\n";
 }

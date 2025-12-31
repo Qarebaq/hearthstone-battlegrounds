@@ -19,8 +19,7 @@ class GameController{
 
         void run(GameState &state);
         void combatPhase(GameState &state);
-        void buyPhase(Player &p, Shop &shop);
-    
+        void buyPhase(GameState &state, int playerIndex);    
 };
 
 
