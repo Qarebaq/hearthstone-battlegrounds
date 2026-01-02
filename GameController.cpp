@@ -30,7 +30,9 @@ cout << "Match seed: " << seed << endl;
         cout<<"\n-=-=-Round "<<state.round<<" | BUY PHASE -=-=\n";
         
         for (int i = 0; i < (int)state.players.size(); ++i) {
-            cout << "\n---" << state.players[i]->name << " TURN --(Health: " << state.players[i]->hero->health << ")\n";
+        cout << "\n---" << state.players[i]->name // نمایش بهتر
+        << " TURN --(Health: " << state.players[i]->hero->health
+        << ", Hero: " << state.players[i]->hero->name << ")\n";
             buyPhase(state, i);
             
         }   
@@ -75,11 +77,29 @@ while(i+1<state.players.size()){
 
 //برای فاز سرور ما بعدها seed را از سرور برمی‌داریم (در پیام combat_start)، ولی برای تست محلی فعلاً یک seed بر اساس زمان ایجاد می‌کنیم و آن را چاپ می‌کنیم تا هر زمان خواستیم یک seed خاص را جایگزین کنیم و replay بگیریم
     cout<<"\n"<<A->name<<" VS "<<B->name<<endl;
+
+
+    // پسرم ازینجا دارم لاگ میندازم ببینم چی داره میشه 
+    //========PRE- Combat=========
+    cout<<"==Pre-Combat State==\n";
+    cout<<A->name<<" Board: ";A->board.printBoard();
+    cout<<B->name<<" Board: "; B->board.printBoard();
+    cout<<A->name<<" Hero Health: "<<A->hero->health<<" | Tavrn tier: "<<state.shops[i]->tavernTier<<"\n";
+    cout<<B->name<<" Hero Health: "<<B->hero->health<<" |Tavern tier: "<<state.shops[i+1]->tavernTier<<"\n";
+
+
     uint32_t combat_seed = rng(); // یک عدد 32 بیتی از RNG مرکزی
     std::mt19937 combat_rng(combat_seed);
     cout << "Combat seed: " << combat_seed << endl;
-    Combat::fight(*A, *B, combat_rng);
 
+    //RUN COMBAT - THIS PRINts attack logs inside Combat::fight 
+    Combat::fight(*A, *B, combat_rng);
+// ====post combat ======
+    cout<<"== Post-Combat State ==\n";
+    cout<<A->name<<" Board: ";A->board.printBoard();
+    cout<<B->name<<" Board: ";B->board.printBoard();
+    cout << A->name << " Hero Health: " << A->hero->health << "\n";
+    cout << B->name << " Hero Health: " << B->hero->health << "\n";
 
     //اینجا دارم بازنده و برنده رو مشخص میکنم
     bool aHasMinions = (A->board.minions.size()>0);
@@ -160,10 +180,15 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
     Player &p = *state.players[playerIndex];
     Shop &shop = *state.shops[playerIndex];
 
+    state.activePlayerIndex.store(playerIndex);
     // roll اولیه
     shop.roll(rng);
     auto start = steady_clock::now();
     const int TIMER = 120;
+
+    // چاپ اولیه یک‌بار برای رابط کاربری
+    shop.show();
+    cout << "\nGold: " << p.gold << " | Time left: " << TIMER << "s\n";
 
     while (true) {
         auto now = steady_clock::now();
@@ -171,14 +196,11 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
 
         if (elapsed >= TIMER) {
             cout << "\nTime's Up!\n";
+            state.activePlayerIndex.store(-1);
             break;
         }
 
-        // نمایش فروشگاه (برای debug / client-side احتمالی)
-        shop.show();
-        cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
-
-        //  تلاش برای گرفتن یک اکشن از صف به صورت thread-safe ---
+        // تلاش برای گرفتن یک اکشن از صف به صورت thread-safe ---
         Action act;
         bool gotAction = false;
 
@@ -186,7 +208,6 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
             std::unique_lock<std::mutex> lk(state.actionMutex);
             // اگر صف خالیه، تا یک بازه کوتاه یا تا زمان کلی timeout صبر کن
             if (state.pendingActions[playerIndex].empty()) {
-                // محاسبه زمان باقیمانده و حداقل یک interval منتظر شدن
                 int remaining_ms = (TIMER - elapsed) * 1000;
                 int wait_ms = std::min(remaining_ms, 500); // تا 500ms هر بار بیدار میشیم
                 if (wait_ms <= 0) {
@@ -207,11 +228,15 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
         } // unlock mutex
 
         if (!gotAction) {
-            // هیچ اکششنی در بازهٔ منتظر وجود نداشت — loop را ادامه می‌دهیم تا timer بررسی شود
+            // هیچ اکشنی در بازهٔ منتظر وجود نداشت — loop را ادامه می‌دهیم تا timer بررسی شود
             continue;
         }
 
         // --- حالا act را پردازش کن ---
+        // قبل از پردازش، نمایش وضعیت به‌روز شده (برای UX)
+        shop.show();
+        cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
+
         if (act.type == ActionType::Buy) {
             shop.buy(p, act.slotIndex);
             // بعد از خرید، بررسی triple
@@ -259,13 +284,11 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
                         }
                         break;
                     } else {
-                        // اگر اکشن غیر discover آمد، می‌توانیم آن را یا اجرا کنیم یا push back کنیم.
-                        // راحت‌ترین کار این است که آن را push_back کنیم تا بعداً پردازش شود:
+                        // اگر اکشن غیر discover آمد آن را push back کنیم تا بعداً پردازش شود
                         {
                             std::lock_guard<std::mutex> lg(state.actionMutex);
                             state.pendingActions[playerIndex].push_back(a2);
                         }
-                        // کمی صبر کن و دوباره loop
                     }
                 } // end waiting for discover
             } // end if discoverTier > 0
@@ -275,25 +298,35 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
             if (p.gold >= 1) {
                 p.gold--;
                 shop.roll(rng);
+                // بعد از رول، نمایش فروشگاه جدید:
+                shop.show();
+                cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
             } else {
                 cout << "Not enough gold to roll\n";
             }
         }
         else if (act.type == ActionType::ToggleFreeze) {
             shop.toggleFreeze(p);
+            // نمایش بعد از فریز
+            shop.show();
+            cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
         }
         else if (act.type == ActionType::Sell) {
             shop.sell(p, act.slotIndex);
+            // نمایش بعد از فروش
+            shop.show();
+            cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
         }
         else if (act.type == ActionType::Upgrade) {
             shop.upgrade(p);
+            // نمایش بعد از آپگرید
+            shop.show();
+            cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
         }
         else if (act.type == ActionType::HeroPower) {
-
-
-            if (p.hero->name == "George") {// پسرک حواست باشه اینجا هیرو پاور ها رو پیاده کردی
+            if (p.hero->name == "George") {
                 int idx = act.slotIndex;
-                if (p.gold < 2) {//قدرت جورج
+                if (p.gold < 2) {
                     cout << "Not enough gold to use hero power\n";
                 } else if (p.board.minions.empty()) {
                     cout << "No minions on board\n";
@@ -302,7 +335,7 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
                     p.gold -= 2;
                     cout << "Divine Shield granted to " << p.board.minions[idx]->name << endl;
                 }
-            } else if (p.hero->name == "Reno") {// قدرت رنو
+            } else if (p.hero->name == "Reno") {
                 int idx = act.slotIndex;
                 if (p.heroPowerUsed) cout << "Hero power already used\n";
                 else if (p.board.minions.empty()) cout << "No minions on board\n";
@@ -310,38 +343,23 @@ void GameController::buyPhase(GameState &state, int playerIndex) {
                     Minion *m = p.board.minions[idx];
                     m->attack *= 2;
                     m->health *= 2;
-                    m->name += " (Golden)";
                     p.heroPowerUsed = true;
-                    cout << m->name << " is now Golden!\n";
+                    cout << "Reno hero power used on " << m->name << endl;
                 }
-            } else if (p.hero->name == "Sylvanas") {// قدرت سیلواناس
-                int idx = act.slotIndex;
-                if (p.gold < 1) cout << "Not enough gold to use hero power\n";
-                else if (p.board.minions.empty()) cout << "No minions on the board\n";
-                else if (idx >= 0 && idx < (int)p.board.minions.size()) {
-                    Minion *m = p.board.minions[idx];
-                    m->attack += 1;
-                    m->health += 1;
-                    p.gold -= 1;
-                    cout << m->name << " now has " << m->attack << "/" << m->health << endl;
-                }
-            } else {
-                cout << "Hero power not implemented for " << p.hero->name << "\n";
             }
+            // بعد از هیرو پاور نمایش بده
+            shop.show();
+            cout << "\nGold: " << p.gold << " | Time left: " << (TIMER - elapsed) << "s\n";
         }
+        // EndTurn processing (اگر کاربر EndTurn فرستاد میتوانیم پردازشش کنیم یا اجازه بدهیم حلقه تمام شود)
         else if (act.type == ActionType::EndTurn) {
+            // ساده‌ترین رفتار: وقتی EndTurn آمد، ما نوبت را خاتمه می‌دهیم
+            cout << "Player " << p.name << " ended turn\n";
+            state.activePlayerIndex.store(-1);
             break;
         }
-    } // end while(timer)
-
-    if (shop.frozen) {
-        cout << "\nShop will remain frozen for next turn\n";
-    }
+    } // end while
 }
-
-
-
-
 
 
 
