@@ -89,7 +89,12 @@ class Combat{
        if(!defender || !attacker){
         return;
        }
-        if (defender->divineShield){
+
+       bool defenderHadShiled = defender->divineShield;
+       bool attackerHadShield = attacker->divineShield;
+
+
+        if (defenderHadShiled){
             defender->divineShield = false;
 
         }
@@ -98,7 +103,7 @@ class Combat{
             defender->health -= attacker->attack;    
         }
     
-        if(attacker->divineShield){
+        if(attackerHadShield){
             attacker->divineShield = false;
         }
 
@@ -191,7 +196,7 @@ static void fight(Player &A, Player &B, std::mt19937 &rng){
 
     // srand(time(NULL));
 
-    cout<<"-=-=-= Combat Started! =-=-=-\n";
+    cout<<"--- Combat Started! ---\n";
 
     int attackerIndexA = 0;
     int attackerIndexB = 0;

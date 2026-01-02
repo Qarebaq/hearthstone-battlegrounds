@@ -25,6 +25,15 @@ class Player{
 
     Player(string n, Hero* h) : name(n), hero(h), gold(3) , heroPowerUsed(false){}
 
+    ~Player(){// دیستراکتور برای پلیر نوشتم اگر هیرو بود نالپوینتر کنه
+        board.clear();
+        if(hero){
+            delete hero;
+            hero = nullptr;
+        }
+    }
+
+
     void showBoard() {
         cout << name << "'s Board:" << endl;
         board.printBoard();

@@ -6,6 +6,7 @@
 #include"Player.h"
 #include"Shop.h"
 #include "Action.h"
+#include<atomic>
 
 #include<mutex>
 #include<condition_variable>
@@ -38,10 +39,10 @@ class GameState{
 //        // synchronization for pendingActions/discoverOffers
         std::mutex actionMutex;
         std::condition_variable actionCv;
+        std::atomic<int> activePlayerIndex;
         
                 GameState(); // اینم از کانستراکتورش
-
-
+                ~GameState(); //اینم از دیستراکتورش
                 void pushAction(int playerIndex , const Action &a);// پسرگ اینجا دارم زور میزنم thread-safe access درست کنم
                 bool popAction(int playerIndex , Action &out);// ترو بر میگردونه اگر پاپ شد
 };

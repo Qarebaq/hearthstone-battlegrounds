@@ -20,6 +20,7 @@ class Board{
     void printBoard();
     void clear();
 
+    ~Board();
 };
 
 

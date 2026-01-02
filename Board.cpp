@@ -30,10 +30,13 @@ void Board::removeDead() {
         if(minions[i]->health>0){
             alive.push_back(minions[i]);
         }
+        else{
+            delete minions[i];// پسرک اینجا اگر مینیون مرده بود حذف میکنیم فضا اش آزاد شه
+        }
 
     }
 
-    minions = alive;
+    minions = std::move(alive);
 }
 
 
@@ -63,7 +66,19 @@ void Board::printBoard(){
 
 }
 
-
+//Clear = ==== dellte all minions and clear vector
 void Board::clear(){
+    for(auto m : minions){
+        delete m;
+    }
+    minions.clear();
+
+}
+
+//here is my destructor
+Board::~Board(){
+    for(auto m : minions){
+        delete m;
+    }
     minions.clear();
 }

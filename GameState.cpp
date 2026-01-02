@@ -2,10 +2,11 @@
 #include "HeroPool.h"
 #include<iostream>
 
+
 GameState::GameState(){
     round =1;
     phase = Phase::Buy;
-
+    activePlayerIndex.store(-1); // در ابتدا بازیکن فعالی نداریم
 
 
     std::vector<Hero*> heroes = HeroPool::getHeroes();
@@ -79,6 +80,29 @@ for(int i=0;i<numPlayers;i++){// همون اولی رو به هر کدوم می�
 
 
 
+}
+
+GameState::~GameState(){
+// اینجا نشستم دیستراکتور نوشتم
+
+    for(Player* p: players){
+        delete p;
+    }
+    players.clear();
+
+    for(Shop *s : shops){
+        delete s;
+
+    }
+    shops.clear();
+
+    for(auto &vec : discoverOffers){
+        for(Minion *m : vec){
+            if(m) delete m;
+        }
+        vec.clear();
+    }
+    discoverOffers.clear();
 }
 
 void GameState::pushAction(int playerIndex ,const Action &a){//مطالعه شود
