@@ -9,6 +9,9 @@
 #include<algorithm>
 #include<random>
 #include "Player.h"
+#include<functional>
+#include<nlohmann/json.hpp>
+using nlohmann::json;
 using namespace std;
 
 class Combat{
