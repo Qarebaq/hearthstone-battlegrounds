@@ -27,7 +27,7 @@ cout << "Match seed: " << seed << endl;
         // ------پسرک حتما توجه کن به اینجا
         //فاز خرید بازی
         state.phase = Phase::Buy;
-        cout<<"\n-=-=-Round "<<state.round<<" | BUY PHASE -=-=\n";
+        cout<<"\n----Round "<<state.round<<" | BUY PHASE ----\n";
         
         for (int i = 0; i < (int)state.players.size(); ++i) {
         cout << "\n---" << state.players[i]->name // نمایش بهتر

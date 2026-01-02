@@ -265,7 +265,7 @@ static void fight(Player &A, Player &B, std::mt19937 &rng){
     }
 
 
-    cout<<"~~~ Combat Ended! ~~~\n";
+    cout<<"--- Combat Ended! ---\n";
 
 
     if(A.board.minions.size()>0 && B.board.minions.size() ==0){
