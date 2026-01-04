@@ -210,3 +210,28 @@ std::string start_combat_json(const std::string &match_id, uint32_t seed) {
     // This helper returns state; future: trigger a forced combat and return replay JSON.
     return get_state_json(match_id);
 }
+
+void destroy_match(const std::string &match_id) {
+    std::lock_guard<std::mutex> lg(matches_mtx);
+    auto it = matches.find(match_id);
+    if (it == matches.end()) return;
+    Match* mm = it->second;
+
+    // TODO: signal controller to stop gracefully (not implemented). For now we detach thread.
+    if (mm->thread.joinable()) {
+        // We could implement a stop flag in controller/run; for PoC we detach.
+        try {
+            mm->thread.detach();
+        } catch(...) {}
+    }
+
+    // cleanup
+    if (mm->controller) delete mm->controller;
+    if (mm->state) {
+        // delete players and shops inside state properly (GameState destructor may handle)
+        delete mm->state;
+    }
+    delete mm;
+
+    matches.erase(it);
+}
