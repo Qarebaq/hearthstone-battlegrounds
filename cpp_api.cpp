@@ -1,3 +1,6 @@
+// این فایل مهره کلیدی سرور هست 
+//api ها رو اینجا داریم میسازیم
+
 #include "cpp_api.h"
 #include "GameState.h"
 #include "GameController.h"
@@ -85,3 +88,42 @@ static json minion_to_json(Minion *m) {
     return mj;
 }
 
+std::string create_match_json(int num_players) {
+    Match *m = new Match();
+    m->id = make_id();
+    m->state = new GameState();
+
+    // prepare players and shops and pendingActions vectors
+    for (int i = 0; i < num_players; ++i) {
+        Hero* h = new Hero("Sylvanas");
+        Player* p = new Player("Player" + std::to_string(i+1), h);
+        m->state->players.push_back(p);
+        m->state->shops.push_back(new Shop());
+        m->state->pendingActions.emplace_back();
+        m->state->discoverOffers.emplace_back();
+        m->state->discoverPending.push_back(false);
+    }
+
+    m->controller = new GameController();
+
+    // run the controller in a separate thread
+    m->running = true;
+    m->thread = std::thread([m]() {
+        try {
+            m->controller->run(*m->state);
+        } catch (const std::exception &e) {
+            std::cerr << "Match thread exception: " << e.what() << std::endl;
+        }
+        m->running = false;
+    });
+
+    {
+        std::lock_guard<std::mutex> lg(matches_mtx);
+        matches[m->id] = m;
+    }
+
+    json out;
+    out["match_id"] = m->id;
+    out["num_players"] = num_players;
+    return out.dump();
+}
