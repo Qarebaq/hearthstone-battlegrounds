@@ -153,3 +153,54 @@ void push_action_json(const std::string &match_id, int player_index, const std::
         mm->state->actionCv.notify_all();
     }
 }
+
+
+
+std::string get_state_json(const std::string &match_id) {
+    std::lock_guard<std::mutex> lg(matches_mtx);
+    auto it = matches.find(match_id);
+    if (it == matches.end()) return "{}";
+    Match* mm = it->second;
+    if (!mm || !mm->state) return "{}";
+
+    json out;
+    out["round"] = mm->state->round;
+    out["phase"] = mm->state->phase == Phase::Buy ? "Buy" : "Combat";
+
+    json players = json::array();
+    for (size_t i = 0; i < mm->state->players.size(); ++i) {
+        Player* p = mm->state->players[i];
+        json pj;
+        pj["name"] = p->name;
+        pj["gold"] = p->gold;
+        pj["hero"] = { {"name", p->hero->name}, {"health", p->hero->health} };
+        // board
+        json board = json::array();
+        for (auto mptr : p->board.minions) {
+            board.push_back(minion_to_json(mptr));
+        }
+        pj["board"] = board;
+        players.push_back(pj);
+    }
+    out["players"] = players;
+
+    // shops
+    json shops = json::array();
+    for (size_t i = 0; i < mm->state->shops.size(); ++i) {
+        Shop* s = mm->state->shops[i];
+        json sj;
+        sj["tavernTier"] = s->tavernTier;
+        // shop slots
+        json slots = json::array();
+        for (int k = 0; k < s->slots.size(); ++k) {
+            Minion* mptr = s->slots[k];
+            if (mptr) slots.push_back(minion_to_json(mptr));
+            else slots.push_back(nullptr);
+        }
+        sj["slots"] = slots;
+        shops.push_back(sj);
+    }
+    out["shops"] = shops;
+
+    return out.dump();
+}
