@@ -127,3 +127,29 @@ std::string create_match_json(int num_players) {
     out["num_players"] = num_players;
     return out.dump();
 }
+
+void push_action_json(const std::string &match_id, int player_index, const std::string &action_json) {
+    std::lock_guard<std::mutex> lg(matches_mtx);
+    auto it = matches.find(match_id);
+    if (it == matches.end()) return;
+    Match* mm = it->second;
+    if (!mm || !mm->state) return;
+
+    json j;
+    try {
+        j = json::parse(action_json);
+    } catch(...) {
+        return;
+    }
+    Action a = action_from_json(j);
+
+    // bounds check for player index
+    if (player_index < 0 || player_index >= (int)mm->state->players.size()) return;
+
+    {
+        std::lock_guard<std::mutex> lg2(mm->mtx);
+        mm->state->pushAction(player_index, a);
+        // notify waiting controller
+        mm->state->actionCv.notify_all();
+    }
+}
