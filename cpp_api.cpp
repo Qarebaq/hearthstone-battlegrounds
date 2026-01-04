@@ -67,3 +67,21 @@ static Action action_from_json(const json &j) {
     }
     return a;
 }
+
+
+
+
+static json minion_to_json(Minion *m) {
+    json mj;
+    if (!m) return mj;
+    mj["name"] = m->name;
+    mj["attack"] = m->attack;
+    mj["health"] = m->health;
+    mj["tier"] = m->tier;
+    mj["divineShield"] = m->divineShield;
+    mj["poisonous"] = m->poisonous;
+    mj["reborn"] = m->reborn;
+    mj["deathrattle"] = m->deathrattle;
+    return mj;
+}
+
