@@ -36,3 +36,34 @@ static std::string make_id() {// اینجا دارم UUID میسازم
     ss << std::hex << d(rng);
     return ss.str();
 }
+
+static Action action_from_json(const json &j) {
+    Action a;
+    std::string t = "";
+    if (j.contains("type") && j["type"].is_string()) {
+        t = j["type"].get<std::string>();
+    }
+    // normalize to upper
+    for (auto &c : t) c = toupper((unsigned char)c);
+
+    if (t == "BUY") a.type = ActionType::Buy;
+    else if (t == "ROLL") a.type = ActionType::Roll;
+    else if (t == "TOGGLEFREEZE") a.type = ActionType::ToggleFreeze;
+    else if (t == "SELL") a.type = ActionType::Sell;
+    else if (t == "UPGRADE") a.type = ActionType::Upgrade;
+    else if (t == "HERO" || t == "HEROPOWER") a.type = ActionType::HeroPower;
+    else if (t == "DISCOVER" || t == "DISCOVERCHOICE") a.type = ActionType::DiscoverChoice;
+    else if (t == "END" || t == "ENDTURN") a.type = ActionType::EndTurn;
+    else a.type = ActionType::EndTurn; // default
+
+    if (j.contains("slot") && j["slot"].is_number_integer()) {
+        a.slotIndex = j["slot"].get<int>();
+    } else if (j.contains("slotIndex") && j["slotIndex"].is_number_integer()) {
+        a.slotIndex = j["slotIndex"].get<int>();
+    }
+
+    if (j.contains("choice") && j["choice"].is_number_integer()) {
+        a.choice = j["choice"].get<int>();
+    }
+    return a;
+}
