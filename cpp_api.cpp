@@ -204,3 +204,9 @@ std::string get_state_json(const std::string &match_id) {
 
     return out.dump();
 }
+
+std::string start_combat_json(const std::string &match_id, uint32_t seed) {
+    // For now controller.run() runs in match thread and will perform combats.
+    // This helper returns state; future: trigger a forced combat and return replay JSON.
+    return get_state_json(match_id);
+}
