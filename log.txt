@@ -1,0 +1,4380 @@
+➜  hearthstone-battlegrounds git:(Qarebaq) ✗ g++ -std=c++17 -pthread *.cpp -o battlegrounds
+➜  hearthstone-battlegrounds git:(Qarebaq) ✗ ./battlegrounds 
+Match seed: 136212707
+
+-=-=-Round 1 | BUY PHASE -=-=
+
+---Player1 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Alleycat 1/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Alleycat 1/1
+Frozen: NO
+
+Gold: 2 | Time left: 120s
+Not enough gold
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Alleycat 1/1
+Frozen: NO
+
+Gold: 2 | Time left: 120s
+
+---Player2 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Alleycat 1/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+---Player3 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+---Player4 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+----COMBAT PHASE ---
+
+Player1 VS Player2
+Combat seed: 2443261617
+-=-=-= Combat Started! =-=-=-
+~~~ Combat Ended! ~~~
+Draw!
+It's a draw. No damage dealt.
+
+Player3 VS Player4
+Combat seed: 3506200328
+-=-=-= Combat Started! =-=-=-
+~~~ Combat Ended! ~~~
+Draw!
+It's a draw. No damage dealt.
+
+-=-=-Round 2 | BUY PHASE -=-=
+
+---Player1 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 92s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 92s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 91s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 91s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 90s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 90s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 89s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 89s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 88s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 88s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 87s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 87s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 86s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 86s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 85s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 85s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 84s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 84s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 83s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 83s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 82s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 82s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 81s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 81s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 80s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 80s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 79s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 79s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 78s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 78s
+
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 77s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 77s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 76s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 76s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 75s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 75s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 74s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 74s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 73s
+-
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 73s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 72s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 72s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 71s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 71s
+
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 70s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 70s
+
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 69s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 69s
+
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 68s
+0
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 68s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 67s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 67s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 66s
+0
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 66s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 65s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 65s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 64s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 64s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 63s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 63s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 62s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 62s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 61s
+1
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 61s
+
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 60s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 60s
+1
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 59s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 59s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 58s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 58s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 57s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 57s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 56s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 56s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 55s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 55s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 54s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 53s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 53s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 52s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 52s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 51s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 51s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 50s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 50s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 49s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 49s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 48s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 48s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 47s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 47s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 46s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 46s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 45s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 45s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 44s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 44s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 43s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 43s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 42s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 42s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 41s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 41s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 40s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 40s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 39s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 39s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 38s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 38s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 37s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 37s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 36s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 36s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 35s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 35s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 34s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 34s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 33s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 33s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 32s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 32s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 31s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 31s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 30s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 30s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 29s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 29s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 28s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 28s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 27s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 27s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 26s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 26s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 25s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 25s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 24s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 24s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 23s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 23s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 22s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 22s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 21s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 21s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 20s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 20s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 19s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 19s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 18s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 18s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 17s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 17s
+0
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 16s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 16s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 15s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 15s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 14s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 14s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 13s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 13s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 12s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 12s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 11s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 11s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 10s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 10s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 9s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 9s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 8s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 8s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 7s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 7s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 6s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 6s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 5s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 5s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 4s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 4s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 3s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 3s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 2s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 2s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 1s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 2 | Time left: 1s
+
+Time's Up!
+
+---Player2 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 92s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 92s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 91s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 91s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 90s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 90s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 89s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 89s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 88s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 88s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 87s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 87s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 86s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 86s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 85s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 85s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 84s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 84s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 83s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 83s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 82s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 82s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 81s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 81s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 80s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 80s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 79s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 79s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 78s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 78s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 77s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 77s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 76s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 76s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 75s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 75s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 74s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 74s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 73s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 73s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 72s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 72s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 71s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 71s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 70s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 70s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 69s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 69s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 68s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 68s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 67s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 67s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 66s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 66s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 65s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 65s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 64s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 64s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 63s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 63s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 62s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 62s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 61s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 61s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 60s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 60s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 59s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 59s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 58s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 58s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 57s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 57s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 56s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 56s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 55s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 55s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 54s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 53s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 53s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 52s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 52s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 51s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 51s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 50s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 50s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 49s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 49s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 48s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 48s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 47s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 47s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 46s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 46s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 45s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 45s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 44s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 44s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 43s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 43s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 42s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 42s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 41s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 41s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 40s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 40s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 39s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 39s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 38s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 38s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 37s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 37s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 36s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 36s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 35s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 35s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 34s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 34s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 33s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 33s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 32s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 32s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 31s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 31s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 30s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 30s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 29s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 29s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 28s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 28s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 27s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 27s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 26s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 26s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 25s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 25s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 24s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 24s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 23s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 23s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 22s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 22s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 21s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 21s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 20s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 20s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 19s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 19s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 18s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 18s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 17s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 17s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 16s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 16s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 15s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 15s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 14s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 14s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 13s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 13s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 12s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 12s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 11s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 11s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 10s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 10s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 9s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 9s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 8s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 8s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 7s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 7s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 6s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 6s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 5s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 5s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 4s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 4s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 3s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 3s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 2s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 2s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 1s
+
+--- TAVERN (Tier 1) ---
+0) Scallywag 2/1
+1) Scallywag 2/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 1s
+
+Time's Up!
+
+---Player3 TURN --(Health: 40)
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 120s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 119s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 118s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 117s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 116s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 115s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 114s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 113s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 112s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 111s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 110s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 109s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 108s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 107s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 106s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 105s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 104s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 103s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 102s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 101s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 100s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 99s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 98s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 97s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 96s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 95s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 94s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 93s
+
+--- TAVERN (Tier 1) ---
+0) Alleycat 1/1
+1) Alleycat 1/1
+2) Scallywag 2/1
+Frozen: NO
+
+Gold: 3 | Time left: 92s
+
+

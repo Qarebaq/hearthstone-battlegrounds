@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dbgbinding_EXPORTS
 
-CXX_INCLUDES = -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14
+CXX_INCLUDES = -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13
 
 CXX_FLAGSx86_64 = -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto
 

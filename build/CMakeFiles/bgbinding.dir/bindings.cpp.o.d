@@ -1,9 +1,9 @@
 CMakeFiles/bgbinding.dir/bindings.cpp.o: \
   /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/bindings.cpp \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/Python.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/patchlevel.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyconfig.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pymacconfig.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/Python.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/patchlevel.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyconfig.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymacconfig.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -313,139 +313,137 @@ CMakeFiles/bgbinding.dir/bindings.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyport.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/exports.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pymacro.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pymath.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pymem.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pymem.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pytypedefs.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pybuffer.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pystats.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyatomic.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyatomic.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyatomic_gcc.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/lock.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/lock.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/critical_section.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/critical_section.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/object.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/object.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/refcount.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/objimpl.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/objimpl.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/typeslots.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyhash.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyhash.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pydebug.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/bytearrayobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/bytearrayobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/bytesobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/bytesobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/unicodeobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/unicodeobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyerrors.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyerrors.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/longobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/longobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/longintrepr.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/boolobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/floatobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/floatobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/complexobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/complexobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/rangeobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/memoryobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/memoryobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/tupleobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/tupleobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/listobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/listobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/dictobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/dictobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/odictobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/enumobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/setobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/setobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/methodobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/methodobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/moduleobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/monitoring.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/monitoring.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/funcobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/classobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/fileobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/fileobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pycapsule.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/code.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pyframe.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyframe.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/traceback.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/traceback.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/sliceobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/cellobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/iterobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/initconfig.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pystate.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pystate.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/genobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/descrobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/descrobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/genericaliasobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/warnings.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/warnings.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/weakrefobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/weakrefobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/structseq.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/picklebufobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pytime.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/codecs.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pythread.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pythread.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyport.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/exports.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymacro.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymath.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pymem.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pymem.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pytypedefs.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pybuffer.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pystats.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyatomic.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyatomic.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyatomic_gcc.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/lock.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/lock.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/object.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/object.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/objimpl.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/objimpl.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/typeslots.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyhash.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyhash.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pydebug.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/bytearrayobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/bytearrayobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/bytesobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/bytesobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/unicodeobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/unicodeobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyerrors.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyerrors.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/longobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/longintrepr.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/boolobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/floatobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/floatobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/complexobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/complexobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/rangeobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/memoryobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/memoryobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/tupleobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/tupleobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/listobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/listobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/dictobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/dictobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/odictobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/enumobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/setobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/setobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/methodobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/methodobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/moduleobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/monitoring.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/monitoring.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/funcobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/classobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/fileobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/fileobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pycapsule.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/code.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pyframe.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyframe.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/traceback.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/traceback.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/sliceobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/cellobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/iterobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/initconfig.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pystate.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pystate.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/genobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/descrobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/descrobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/genericaliasobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/warnings.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/warnings.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/weakrefobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/weakrefobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/structseq.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/picklebufobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pytime.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/codecs.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pythread.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pythread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/context.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/modsupport.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/modsupport.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/compile.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/compile.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pythonrun.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pythonrun.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pylifecycle.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pylifecycle.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/ceval.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/ceval.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/sysmodule.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/audit.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/audit.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/osmodule.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/intrcheck.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/import.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/import.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/abstract.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/abstract.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/bltinmodule.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyctype.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pystrtod.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/pystrcmp.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/fileutils.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/context.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/modsupport.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/modsupport.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/compile.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/compile.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pythonrun.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pythonrun.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pylifecycle.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pylifecycle.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/ceval.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/ceval.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/sysmodule.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/sysmodule.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/osmodule.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/intrcheck.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/import.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/import.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/abstract.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/abstract.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/bltinmodule.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/critical_section.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/critical_section.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyctype.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pystrtod.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/pystrcmp.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/fileutils.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_filesec_t.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/fileutils.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/pyfpe.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/tracemalloc.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/fileutils.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/pyfpe.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/tracemalloc.h \
   /usr/local/include/pybind11/pybind11.h \
   /usr/local/include/pybind11/detail/class.h \
   /usr/local/include/pybind11/attr.h \
   /usr/local/include/pybind11/detail/common.h \
   /usr/local/include/pybind11/conduit/wrap_include_python_h.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/frameobject.h \
-  /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14/cpython/frameobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/frameobject.h \
+  /usr/local/opt/python@3.13/Frameworks/Python.framework/Versions/3.13/include/python3.13/cpython/frameobject.h \
   /usr/local/include/pybind11/detail/pybind11_namespace_macros.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \

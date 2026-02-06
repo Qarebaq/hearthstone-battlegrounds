@@ -11,7 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/bgbinding.dir/bindings.cpp.o.d"
   "CMakeFiles/bgbinding.dir/cpp_api.cpp.o"
   "CMakeFiles/bgbinding.dir/cpp_api.cpp.o.d"
-  "bgbinding.cpython-314-darwin.so"
+  "bgbinding.cpython-313-darwin.so"
   "bgbinding.pdb"
 )
 

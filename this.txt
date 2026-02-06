@@ -1,0 +1,33 @@
+#include "GameState.h"
+#include "HeroPool.h"
+#include <iostream>
+#include <string>
+
+GameState::GameState() {
+    round = 1;
+    phase = Phase::Buy;
+
+    // دریافت لیست هیروها
+    std::vector<Hero*> heroes = HeroPool::getHeroes();
+    int numPlayers = 4; // چهار بازیکن
+
+    for (int i = 0; i < numPlayers; ++i) {
+        // نمایش گزینه‌ها و خواندن انتخاب
+        std::cout << "Player " << (i + 1) << " choose your hero:\n";
+        for (int j = 0; j < heroes.size(); ++j) {
+            std::cout << j << ") " << heroes[j]->name << std::endl;
+        }
+        int choice;
+        std::cin >> choice;
+        if (choice < 0 || choice >= (int)heroes.size()) {
+            choice = 0;
+        }
+        // ایجاد بازیکن و فروشگاه
+        Player* player = new Player("Player " + std::to_string(i + 1), heroes[choice]);
+        players.push_back(player);
+        heroes.erase(heroes.begin() + choice);
+
+        Shop* shop = new Shop();
+        shops.push_back(shop);
+    }
+}
