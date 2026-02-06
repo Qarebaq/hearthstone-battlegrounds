@@ -1,0 +1,3 @@
+/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build/CMakeFiles/bgbinding.dir
+/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build/CMakeFiles/edit_cache.dir
+/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build/CMakeFiles/rebuild_cache.dir

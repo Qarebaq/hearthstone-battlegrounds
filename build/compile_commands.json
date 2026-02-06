@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/bindings.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/bindings.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/bindings.cpp",
+  "output": "CMakeFiles/bgbinding.dir/bindings.cpp.o"
+},
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/cpp_api.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/cpp_api.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/cpp_api.cpp",
+  "output": "CMakeFiles/bgbinding.dir/cpp_api.cpp.o"
+},
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/GameController.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/GameController.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/GameController.cpp",
+  "output": "CMakeFiles/bgbinding.dir/GameController.cpp.o"
+},
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/GameState.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/GameState.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/GameState.cpp",
+  "output": "CMakeFiles/bgbinding.dir/GameState.cpp.o"
+},
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/Board.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/Board.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/Board.cpp",
+  "output": "CMakeFiles/bgbinding.dir/Board.cpp.o"
+},
+{
+  "directory": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/build",
+  "command": "/usr/bin/c++ -Dbgbinding_EXPORTS -I/Users/amirsmac/Desktop/w/hearthstone-battlegrounds -isystem /usr/local/opt/python@3.14/Frameworks/Python.framework/Versions/3.14/include/python3.14 -std=gnu++17 -arch x86_64 -fPIC -fvisibility=hidden -flto -o CMakeFiles/bgbinding.dir/Shop.cpp.o -c /Users/amirsmac/Desktop/w/hearthstone-battlegrounds/Shop.cpp",
+  "file": "/Users/amirsmac/Desktop/w/hearthstone-battlegrounds/Shop.cpp",
+  "output": "CMakeFiles/bgbinding.dir/Shop.cpp.o"
+}
+]
