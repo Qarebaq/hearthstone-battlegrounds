@@ -167,6 +167,23 @@ async def handle(websocket, path) -> None:
                 except Exception:
                     state = {}
                 await broadcast(mid, {"type": "state", **state})
+
+                # After broadcasting the updated state, check for any pending discover offers.
+                # If a player has a pending discover selection, send them a discover_offer message
+                # containing the available options. The C++ engine exposes `discoverPending` and
+                # `discoverOffers` in the state JSON when a triple occurs and the player must
+                # choose a reward. We iterate through the pending flags and send offers to the
+                # respective players. Note: discoverOffers is a list of lists of minion objects.
+                pending = state.get("discoverPending")
+                offers = state.get("discoverOffers")
+                if pending and offers:
+                    for i, is_pending in enumerate(pending):
+                        if is_pending and i < len(offers):
+                            await broadcast(mid, {
+                                "type": "discover_offer",
+                                "player_index": i,
+                                "options": offers[i],
+                            })
             elif msg_type == "start_combat":
                 mid = msg.get("match_id") or match_id
                 if not mid:
@@ -200,6 +217,98 @@ async def handle(websocket, path) -> None:
                     combat_state = {}
                 # Broadcast combat result to all.
                 await broadcast(mid, {"type": "combat_log", **combat_state})
+            elif msg_type == "discover_choice":
+                # Handle a player's selection from a discover offer. The client should send
+                # {"type": "discover_choice", "match_id": ..., "player_index": int, "choice": int}
+                # where `choice` is the index of the selected option. We build an Action
+                # with type "discoverChoice" and send it to the C++ engine.
+                mid = msg.get("match_id") or match_id
+                if not mid:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "missing match_id"}
+                        )
+                    )
+                    continue
+                mid = str(mid)
+                player_index = msg.get("player_index")
+                if player_index is None:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "missing player_index"}
+                        )
+                    )
+                    continue
+                try:
+                    player_index_int = int(player_index)
+                except Exception:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "invalid player_index"}
+                        )
+                    )
+                    continue
+                choice = msg.get("choice")
+                if choice is None:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "missing choice"}
+                        )
+                    )
+                    continue
+                try:
+                    choice_int = int(choice)
+                except Exception:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "invalid choice"}
+                        )
+                    )
+                    continue
+                # Construct the action object for DiscoverChoice. The C++ engine expects
+                # type "discoverChoice" and a numeric choice index. No slot is needed here.
+                action_obj = {"type": "discoverChoice", "choice": choice_int}
+                try:
+                    action_json = orjson.dumps(action_obj).decode()
+                except Exception:
+                    await websocket.send(
+                        orjson.dumps(
+                            {"type": "error", "msg": "invalid choice payload"}
+                        )
+                    )
+                    continue
+                # Push the discover choice action to the engine. Use thread pool to avoid
+                # blocking the event loop.
+                await loop.run_in_executor(
+                    executor,
+                    bgbinding.push_action_json,
+                    mid,
+                    player_index_int,
+                    action_json,
+                )
+                # Acknowledge receipt of the choice.
+                await websocket.send(orjson.dumps({"type": "ack"}))
+                # Broadcast the updated state to all clients.
+                state_json = await loop.run_in_executor(
+                    executor, bgbinding.get_state_json, mid
+                )
+                try:
+                    state = orjson.loads(state_json)
+                except Exception:
+                    state = {}
+                await broadcast(mid, {"type": "state", **state})
+                # If new discover offers are pending after applying this choice,
+                # broadcast them as well.
+                pending = state.get("discoverPending")
+                offers = state.get("discoverOffers")
+                if pending and offers:
+                    for i, is_pending in enumerate(pending):
+                        if is_pending and i < len(offers):
+                            await broadcast(mid, {
+                                "type": "discover_offer",
+                                "player_index": i,
+                                "options": offers[i],
+                            })
             else:
                 await websocket.send(
                     orjson.dumps(

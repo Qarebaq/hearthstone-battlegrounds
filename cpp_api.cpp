@@ -202,6 +202,23 @@ std::string get_state_json(const std::string &match_id) {
     }
     out["shops"] = shops;
 
+
+// expose activePlayerIndex (or -1 when no active player)
+out["activePlayerIndex"] = mm->state->activePlayerIndex.load();
+
+// expose discover offers and pending flags
+json discoverOffers = json::array();
+for (const auto &offers : mm->state->discoverOffers) {
+    json opts = json::array();
+    for (auto *minionPtr : offers) {
+        opts.push_back(minion_to_json(minionPtr));
+    }
+    discoverOffers.push_back(opts);
+}
+out["discoverOffers"] = discoverOffers;
+out["discoverPending"] = mm->state->discoverPending;
+
+
     return out.dump();
 }
 
